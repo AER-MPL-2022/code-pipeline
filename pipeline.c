@@ -42,8 +42,7 @@ void generic_pipe(char **commands[], int num_commands)
 
             // Execute the current command
             // -> code here
-            // Exit the child process
-            return;
+            exit(0);
         } else {
             close(in_fd);
             in_fd = fd[0];
