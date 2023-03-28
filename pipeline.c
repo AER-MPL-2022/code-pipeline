@@ -48,8 +48,6 @@ void generic_pipe(char **commands[], int num_commands)
             in_fd = fd[0];
             // Close the write end of the pipe
             // -> code here
-            // Wait for the child process to finish
-            // -> code here
         }
     }
 
